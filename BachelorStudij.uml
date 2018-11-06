@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ba.unsa.etf.rpr.tutorijal04.BachelorStudij</OriginalElement>
+  <nodes>
+    <node x="202.80838323353282" y="73.77245508982034">ba.unsa.etf.rpr.tutorijal04.PlanStudija</node>
+    <node x="617.2215568862275" y="461.8383233532934">ba.unsa.etf.rpr.tutorijal04.Upis</node>
+    <node x="10.538922155688624" y="482.91616766467064">ba.unsa.etf.rpr.tutorijal04.Student</node>
+    <node x="278.2215568862275" y="465.7904191616766">ba.unsa.etf.rpr.tutorijal04.Fakultet</node>
+    <node x="641.2514970059881" y="108.02395209580837">ba.unsa.etf.rpr.tutorijal04.Predmet</node>
+    <node x="6.586826347305362" y="235.79041916167654">ba.unsa.etf.rpr.tutorijal04.BachelorStudij</node>
+    <node x="300.2215568862275" y="231.8383233532934">ba.unsa.etf.rpr.tutorijal04.MasterStudij</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ba.unsa.etf.rpr.tutorijal04.BachelorStudij" target="ba.unsa.etf.rpr.tutorijal04.PlanStudija">
+      <point x="0.0" y="-92.5" />
+      <point x="144.72155688622752" y="206.8383233532934" />
+      <point x="243.22155688622752" y="206.8383233532934" />
+      <point x="-47.0" y="70.5" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.tutorijal04.MasterStudij" target="ba.unsa.etf.rpr.tutorijal04.PlanStudija">
+      <point x="0.0" y="-92.5" />
+      <point x="435.7215568862275" y="206.8383233532934" />
+      <point x="337.2215568862275" y="206.8383233532934" />
+      <point x="47.0" y="70.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.759090909090909" x="392.50000000000006" y="430.00000000000006" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
