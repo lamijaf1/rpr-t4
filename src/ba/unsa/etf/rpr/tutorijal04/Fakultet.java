@@ -27,6 +27,7 @@ public class Fakultet {
           //naci studenta istog imena, predmeta i plana studija i izbaciti
         }
     }
+    void DodajStudentaNaPredmet(Student student){}
 
 
 }
