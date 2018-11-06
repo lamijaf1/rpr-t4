@@ -17,7 +17,7 @@ public class Fakultet {
     }
     public boolean ProvjeraPrekoracenjaEcts(Student provjera){
         for(Upis u: upisani){
-            if(provjera.getImeStudenta()==u.student.getImeStudenta())return false;
+            if(provjera.getImeStudenta()== u.getStudent().getImeStudenta())return false;
         }
         return true;
     }
