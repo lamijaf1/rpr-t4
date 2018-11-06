@@ -2,9 +2,8 @@ package ba.unsa.etf.rpr.tutorijal04;
 
 import java.util.ArrayList;
 
-public class BachelorStudij extends VrsteStudija {
-    private ArrayList<RedovniPredmeti> listaObaveznih;
-    private ArrayList<IzborniPredmeti> listaIzbornih;
+public class BachelorStudij extends PlanStudija {
+    private ArrayList<Predmet> predmeti;
     private int ects;
     private int semestar;
     BachelorStudij(int ciklus, String smjer, int ects){
@@ -13,20 +12,12 @@ public class BachelorStudij extends VrsteStudija {
     }
 
 
-    public ArrayList<RedovniPredmeti> getListaObaveznih() {
-        return listaObaveznih;
+    public ArrayList<Predmet> getPredmeti() {
+        return predmeti;
     }
 
-    public void setListaObaveznih(ArrayList<RedovniPredmeti> listaObaveznih) {
-        this.listaObaveznih = listaObaveznih;
-    }
-
-    public ArrayList<IzborniPredmeti> getListaIzbornih() {
-        return listaIzbornih;
-    }
-
-    public void setListaIzbornih(ArrayList<IzborniPredmeti> listaIzbornih) {
-        this.listaIzbornih = listaIzbornih;
+    public void setPredmeti(ArrayList<Predmet> predmeti) {
+        this.predmeti = predmeti;
     }
 
     public int getEcts() {

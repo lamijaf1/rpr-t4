@@ -1,11 +1,13 @@
 package ba.unsa.etf.rpr.tutorijal04;
 
-public abstract class VrsteStudija {
+import java.util.Map;
+
+public  class PlanStudija {
+
     private int ciklus;
     private String smjer;
-    public VrsteStudija(int ciklus, String smjer){}
-
-
+    Map<Integer, Upis> plan;
+    public PlanStudija(int ciklus, String smjer){}
     public int getCiklus() {
         return ciklus;
     }
